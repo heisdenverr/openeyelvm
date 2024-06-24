@@ -1,4 +1,4 @@
-# Flask Image Downloader Web Application
+# Openeyelvm for custom datasets Creation
 
 This Flask web application allows users to download images from the web based on a search query and create a dataset. The images are downloaded concurrently for better performance, and the final dataset is provided as a ZIP file for download.
 
