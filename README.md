@@ -1,32 +1,26 @@
-# Openeyelvm for custom datasets Creation
+# OpenEyeLVM
 
-This Flask web application allows users to download images from the web based on a search query and create a dataset. The images are downloaded concurrently for better performance, and the final dataset is provided as a ZIP file for download.
+OpenEyeLVM is a web application designed for creating custom vision datasets for large vision models. Users can download images from the internet based on search queries, organize them into folders by keywords, and bundle them into a zip file for easy download.
 
 ## Features
 
-- Specify a folder name, search query, and the number of images per keyword.
-- Concurrent image downloading for faster dataset creation.
-- Create a ZIP file containing the downloaded images.
-- Simple web interface for inputting search parameters and downloading the dataset.
+- Users can enter search queries to download images.
+- Images are organized into folders based on keywords.
+- The application creates a zip file of the downloaded images for easy download.
+- Ideal for creating custom vision datasets for training large vision models.
 
-## Technologies Used
 
-- Python
-- Flask
-- Gunicorn
-- Bing Image Downloader
-- Dotenv
-- HTML/CSS
+## Usage
 
-## Requirements
+1. Open the application in your web browser.
+2. Enter the folder name, query, and the number of images per keyword.
+3. Submit the form to download images.
+4. The images will be zipped and provided as a downloadable file.
 
-- Python 3.8 or higher
-- Pip (Python package installer)
+## Contributing
 
-## Installation
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/heisdenverr/openeyelvm.git
-    cd flask-image-downloader
-    ```
+## License
+
+This project is open source and is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
