@@ -27,6 +27,6 @@ This Flask web application allows users to download images from the web based on
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/heisdenverr/flask-image-downloader.git
+    git clone https://github.com/heisdenverr/openeyelvm.git
     cd flask-image-downloader
     ```
